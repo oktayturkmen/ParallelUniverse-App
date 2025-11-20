@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated files
+backend/generated/
+backend/uploads/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# React Native (reference app/.gitignore)
+app/node_modules/
+app/build/
+app/android/build/
+app/android/app/build/
+app/ios/build/
+app/ios/Pods/
+app/.gradle/
+
+# Logs
+*.log
+logs/
+
